@@ -1,0 +1,33 @@
+
+.gallery {
+     margin-top: 50px;
+     text-align: center;
+     color: #fff;
+     
+   }
+   
+   .gallery h2 {
+     margin-bottom: 20px;
+     font-size: 1.8rem;
+   }
+   
+   .media-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+     gap: 20px;
+     padding: 20px;
+   }
+   
+   .media-grid img,
+   .media-grid video {
+     width: 100%;
+     border-radius: 15px;
+     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+     transition: transform 0.3s ease;
+   }
+   
+   .media-grid img:hover,
+   .media-grid video:hover {
+     transform: scale(1.05);
+   }
+   
